@@ -18,6 +18,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# pycharm env
+.idea/
+
+
 # =========================
 # Operating System Files
 # =========================
