@@ -2,7 +2,7 @@
 
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
-        length = len(nums)   #集合求长度要比列表求长度慢很多，先求长度再转化为集合
+        length = len(nums)
         nums=set(nums)
         for i in range(1,length+1):
             if i not in nums:
